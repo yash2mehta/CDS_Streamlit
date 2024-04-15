@@ -64,7 +64,7 @@ def initialize_model(device):
     loaded_model = TripletNetwork(embedding_size=64) 
 
     # Load the model from model_path
-    loaded_model.load_state_dict(torch.load("saved_files/model_weights.pth"))
+    loaded_model.load_state_dict(torch.load("saved_files/model_weights.pth", map_location = torch.device('cpu')))
 
     # Set it in eval mode
     #loaded_model.eval()
