@@ -105,7 +105,7 @@ def load_image(model, image_path, device):
     image = image.unsqueeze(0).to(device)
 
     # Load embeddings
-    reference_embeddings = torch.load('saved_files/reference_embeddings.pt')
+    reference_embeddings = torch.load('saved_files/reference_embeddings.pt', map_location=torch.device('cpu'))
 
     return image, reference_embeddings
 
