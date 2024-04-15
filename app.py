@@ -126,14 +126,14 @@ if selected_filename is not None:
 
         if actual_class == 1:
             
-            st.write("<div style='text-align: center;'><b>Model Prediction:</b> Melanoma, Class 1", unsafe_allow_html=True)
+            st.write("<div style='text-align: center;'><b>Ground-truth value:</b> Melanoma, Class 1", unsafe_allow_html=True)
 
             # print("Ground-truth value for the Image is Melanoma, Class 1")
             # st.write("Ground-truth value: Melanoma, Class 1")
 
         else:
 
-            st.write("<div style='text-align: center;'><b>Model Prediction:</b> No Melanoma, Class 0", unsafe_allow_html=True)
+            st.write("<div style='text-align: center;'><b>Ground-truth value:</b> No Melanoma, Class 0", unsafe_allow_html=True)
 
             # print("Ground-truth value for the Image is No Melanoma, Class 0")
             # st.write("Ground-truth value: No Melanoma, Class 0")
