@@ -1,6 +1,6 @@
-# Streamlit App for lung cancer detection
+# Streamlit App for Skin cancer detection
 
-This repository holds the necessary code for a streamlit app that is used for lung cancer detection
+This repository holds the necessary code for a streamlit app that is used for skin cancer detection
 
 ## Dependencies needed to install
 
